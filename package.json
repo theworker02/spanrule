@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/spanrule",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Span structured JSON rule payloads without a heavyweight toolkit.",
+  "bin": {
+    "spanrule": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/spanrule.git"
+  },
+  "homepage": "https://theworker02.github.io/spanrule/",
+  "keywords": [
+    "span",
+    "rule",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
